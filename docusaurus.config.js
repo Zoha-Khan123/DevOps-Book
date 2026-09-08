@@ -23,7 +23,7 @@ const config = {
   url: 'https://Zoha-Khan123.github.io/DevOps-Book/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/DevOps-Book',
+  baseUrl: '/DevOps-Book/',
 
   // GitHub pages deployment config.
   organizationName: 'Zoha-Khan123',
