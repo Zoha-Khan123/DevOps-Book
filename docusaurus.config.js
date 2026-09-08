@@ -20,14 +20,15 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://Zoha-Khan123.github.io/DevOps-Book/',
+  url: 'https://Zoha-Khan123.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/DevOps-Book/',
 
   // GitHub pages deployment config.
   organizationName: 'Zoha-Khan123',
-  projectName: 'devops-book',
+  projectName: 'DevOps-Book',
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
 
