@@ -4,16 +4,15 @@ on:
   push:
     branches:
       - main
-  # Manual trigger button in GitHub Actions tab
   workflow_dispatch:
 
-# Permissions required for GitHub Pages deployment
+# Permissions required for GitHub Pages
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# Allow only one concurrent deployment
 concurrency:
   group: 'pages'
   cancel-in-progress: true
@@ -31,7 +30,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
           cache: npm
 
       - name: Install Dependencies
